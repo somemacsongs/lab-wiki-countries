@@ -1,6 +1,9 @@
 .container{
     margin-left: 11rem;
     margin-top: 1.5rem;
-    margin-right: 11rem;
-    height: 40rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    
 }
+

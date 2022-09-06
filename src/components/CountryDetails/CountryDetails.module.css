@@ -1,0 +1,31 @@
+.info {
+    width: 40rem;
+}
+
+.infoItem{
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    gap:7rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.table{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+}
+.linha {
+    border-top: solid rgb(226, 226, 226) 0.1rem;
+    vertical-align: inherit;
+}
+
+td{
+    padding: 0.75rem
+}
