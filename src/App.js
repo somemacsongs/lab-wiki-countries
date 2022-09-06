@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import CountriesList from "./components/CountriesList/CountriesList.js";
+import Navbar from "./components/Navbar/Navbar"
+import countries from "./countries.json"
+import style from "./Apps.module.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Navbar />
+        <div className={style.container}>
+        <CountriesList countries={countries}/>
+
+        </div>
+        
     </div>
   );
 }

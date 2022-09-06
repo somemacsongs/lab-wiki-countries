@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 26rem;
+    border: solid rgb(209, 204, 204) 0.6px;
+    border-radius: 10px; 
+}
+
+.btn{
+    padding: 0.8rem;
+    padding-bottom: 0;
+    border-bottom: solid rgb(209, 204, 204) 0.1px; 
+    text-decoration: none; 
+}
+    

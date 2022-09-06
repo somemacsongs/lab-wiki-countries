@@ -1,0 +1,13 @@
+.container {
+    color: aliceblue;
+    background-color: rgb(42, 148, 240);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    height: 3.6rem; 
+}
+
+.title {
+    margin-left: 11rem;
+    font-size: 1.4rem;
+}
